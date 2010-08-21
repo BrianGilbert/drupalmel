@@ -1,0 +1,20 @@
+<?php
+// $Id$
+/**
+ * @file
+ * Drupal Melbourne custom module.
+ */
+
+/**
+ * Implements hook_init().
+ */
+function drupalmel_mod_init() {
+  foreach (module_list() as $module) {
+    if (file_exists($file = dirname(__FILE__) . "/modules/{$module}.inc")) {
+      require_once $file;
+    }
+  }
+
+  // Invoke hook_drupalmel_mod_init().
+  module_invoke_all('drupalmel_mod_init');
+}

@@ -1,0 +1,5 @@
+; $Id$
+core = "6.x"
+description = "Drupal Melbourne custom module"
+name = "Drupal Melbourne custom module"
+package = " Drupal Melbourne"
