@@ -73,3 +73,15 @@ UNLOCK TABLES;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
 -- Dump completed on 2010-06-19  3:40:05
+
+--
+-- There is content, but not created by uid 1. On a fresh github install
+-- that means content.module spazzes out and spits out warnings. The fix
+-- is to make all content owned by uid 1, which always exists.
+--
+
+UPDATE `node` SET uid=1;
+
+--
+-- There, I fixed it.
+--
