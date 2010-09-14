@@ -27,30 +27,33 @@ h1#site-name {
 
 #header-dec-outer { 
 	background: url(../images/header_bkg.jpg) repeat-x 0 0; 
-	height: 310px; 
+	height: 75px; 
 	position: relative;
 	}
 	
 .header-decoration { 
-	background: url(../images/city_header.png) no-repeat 50% top; 
-	float: left; 
-	position: absolute; 
-	top:73px; 
-	left: 0; 
-	width:100%;
-	height: 265px;
+	 
+	
 	}
 
 #header-dec-outer .block-search {
 	position: relative;
-	top: -55px;
+	top: 18px;
 	color: #fff;
 }
 
 #logo {
 	position: relative;
-	top: -90px;
+	top: -40px;
 	left: 380px;
+}
+
+div.not-front {
+	background: url(../images/city_header300.png) no-repeat; 
+	position: absolute; 
+	top:8px; 
+	right:-420px; 
+	height: 93px;
 }
 
 /*dmelmenu styles*/

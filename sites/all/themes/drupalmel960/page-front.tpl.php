@@ -12,8 +12,8 @@
   <?php print $scripts; ?>
 </head>
 
-<body class="<?php print $body_classes; ?>">
-  <div id="header-dec-outer">
+<body class="<?php print $body_classes; ?> front">
+  <div id="header-dec-outer" class="front">
   <div class="header-decoration">
   	<div class="preheader container-16">
 	<?php if ($preheader): ?>
