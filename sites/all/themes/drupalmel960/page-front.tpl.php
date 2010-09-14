@@ -16,7 +16,6 @@
   <div id="header-dec-outer">
   <div class="header-decoration">
   	<div class="preheader container-16">
-  	<div class="not-front container-16"></div>
 	<?php if ($preheader): ?>
       <div id="preheader-region" class="region <?php print ns('grid-16', $mission, 7); ?> clear-block">
         <?php print $preheader; ?>

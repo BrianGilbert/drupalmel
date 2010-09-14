@@ -24,6 +24,7 @@ stylesheets[all][] = styles/framework/debug.css
 
 ; Theme specific styles. Any sub-themes should override this.
 stylesheets[all][] = styles/styles.css
+stylesheets[all][] = styles/front.css
 
 ; Information added by drupal.org packaging script on 2009-08-02
 version = "6.x-1.0"
