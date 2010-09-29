@@ -78,7 +78,7 @@
     </div>
 
 
-    <div id="main" class="column <?php print ns('grid-16', $left, 4, $right, 3) . ' ' . ns('push-4', !$left, 4); ?>">
+    <div id="main" class="column <?php print ns('grid-16', $left, 3, $right, 3) . ' ' . ns('push-3', !$left, 4); ?>">
       <?php print $breadcrumb; ?>
       <?php if ($title): ?>
         <h1 class="title" id="page-title"><?php print $title; ?></h1>
@@ -97,7 +97,7 @@
     </div>
 
   <?php if ($left): ?>
-    <div id="sidebar-left" class="column sidebar region grid-4 <?php print ns('pull-12', $right, 3); ?>">
+    <div id="sidebar-left" class="column sidebar region grid-3 <?php print ns('pull-13', $right, 3); ?>">
       <?php print $left; ?>
     </div>
   <?php endif; ?>
