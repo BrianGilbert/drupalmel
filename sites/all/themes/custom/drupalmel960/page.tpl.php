@@ -78,7 +78,7 @@
     </div>
 
 
-    <div id="main" class="column <?php print ns('grid-16', $left, 3, $right, 3) . ' ' . ns('push-3', !$left, 4); ?>">
+    <div id="main" class="column <?php print ns('grid-16', $left, 3, $right, 3) . ' ' . ns('push-3', !$left, 3); ?>">
       <?php print $breadcrumb; ?>
       <?php if ($title): ?>
         <h1 class="title" id="page-title"><?php print $title; ?></h1>
