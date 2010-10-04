@@ -120,12 +120,13 @@ h1#site-name {
 	left: 380px;
 }
 
-div.not-front {
+div.not-front-city {
 	background: url(../images/city_header300.png) no-repeat; 
-	position: absolute; 
-	top:8px; 
-	right:-420px; 
+	position: relative; 
+	top:-31px;
+	right:-618px; 
 	height: 93px;
+	width: 100%;
 }
 
 /*dmelmenu styles*/

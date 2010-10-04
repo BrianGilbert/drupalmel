@@ -16,7 +16,7 @@
   <div id="header-dec-outer">
   <div class="header-decoration">
   	<div class="preheader container-16">
-  	<div class="not-front container-16"></div>
+  	
 	<?php if ($preheader): ?>
       <div id="preheader-region" class="region <?php print ns('grid-16', $mission, 7); ?> clear-block">
         <?php print $preheader; ?>
@@ -31,6 +31,7 @@
       <?php if ($site_slogan): ?>
         <div id="site-slogan" class="grid-3 omega"><?php print $site_slogan; ?></div>
       <?php endif; ?>
+      <div class="not-front-city grid-6"></div>
   </div>
   </div>
   </div>
