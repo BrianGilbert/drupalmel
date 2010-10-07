@@ -55,17 +55,17 @@ a {
 }
 
 a:link {
-	color: #6699ff;
+	color: #666;
 }
 
 a:hover {
-	color: #3333ff;
-	background-color: #99ccff;
+	color: #025801;
+	background-color: #68bd45;
 	text-decoration: underline;
 }
 
 a:visited {
-	color: #6699ff;
+	color: #666;
 }
 
 
@@ -198,6 +198,45 @@ div.not-front-city {
 	position: relative;
 	top: 185px;	
 }
+
+/*Styles for tabs*/
+
+ul.primary {
+	background-color: #1e8206;
+	padding: .3em 0 .3em 1em;
+	margin:0 0 1em 0;
+}
+
+ul.primary li a {
+	color: #fff;
+	background-color:#107002;
+	border:0;
+	height:auto;
+	margin-right:0;
+	padding:.3em 2em .3em 2em;
+	text-decoration:none;
+	
+}
+
+ul.primary li a:hover {
+	background-color:#025801;	
+	text-decoration: underline;
+	
+}
+
+ul.primary li.active a {
+	color: #025801;
+	background-color:#fff;
+	border-color:#025801;
+	border-style:solid;
+	border-width:1px;
+	border-top-width: 3px;
+	border-bottom-width: 3px;
+}
+
+
+/*end styles for tabs*/
+
 /*
 ** Formatting for administration page
 **
