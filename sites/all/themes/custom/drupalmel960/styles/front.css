@@ -30,44 +30,14 @@
 
 /*dmelmenu styles*/
 
-#dmelmenu-outer{ 
-	background: url(../images/topmenu_bkg.jpg) repeat-x 0 0; height: 112px;
-	}
 
-#dmelmenu-inner{
-	margin: 0 auto;
-	background: url(../images/menu_bkg.jpg) no-repeat 0 0;
-	height: 112px;
-}
-
-#block-menu-primary-links ul.menu {
+.front #block-menu-primary-links ul.menu {
 	position: relative;
 	top: 50px;
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 1.3em;
 	
-}
-
-#block-menu-primary-links ul.menu li {
-	list-style: none; 
-	display: inline;
-	padding: 0 14px;
-}
-
-#block-menu-primary-links ul.menu li a {
-	color: #fff; 
-	text-decoration: none;
-}
-
-#block-menu-primary-links ul.menu li a:visited {
-	color: #fff;
-}
-
-#block-menu-primary-links ul.menu li a:hover,
-#block-menu-primary-links ul.menu li a:active {
-	color: #b6ff4e;
-	text-decoration: underline;
 }
 
 /*start of footer styles*/
